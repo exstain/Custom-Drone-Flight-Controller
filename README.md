@@ -1,2 +1,19 @@
-# Custom-Drone-Flight-Controller2
-Embedded flight controller firmware featuring IMU processing, PID control, motor mixing, and ESP8266 communication.
+Custom Drone Flight Controller
+
+Features
+- PID Stabilization
+- IMU Sensor Integration
+- Motor Mixing
+- ESP8266 Telemetry
+- Wireless Configuration
+
+Hardware
+- ESP8266
+- IMU Sensor
+- Brushless Motors
+- ESC
+
+Results
+- Stable flight
+- Wireless telemetry
+- Real-time control
