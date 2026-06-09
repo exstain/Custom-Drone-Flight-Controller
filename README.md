@@ -23,7 +23,7 @@ Core hardware design, assembly, firmware development, and flight testing were do
 
 ## System Architecture
 <p align="center">
-  <img src="images/arsitektur-drone" width="45%">
+  <img src="docs/arsitektur-drone" width="45%">
 </p>
 
 ## Hardware Specifications
@@ -161,12 +161,12 @@ Multiple testing stages were performed to ensure safe and stable operation.
 
 ## Photo of the Manufacturing Process
 <p align="center">
-  <img src="images/assembly-frame-f450.jpeg" width="45%">
-  <img src="images/control-web-code.jpeg" width="45%">
-  <img src="images/cutting-plywood.jpeg" width="45%">
-  <img src="images/drill-a-hole-in-carbon-tube.jpeg" width="45%">
-  <img src="images/find-the-rough-video-of-pid.jpeg" width="45%">
-  <img src="images/flight-controller-code.jpeg" width="45%">
-  <img src="images/installing-motor-and-esc-2.jpeg" width="45%">
-  <img src="images/installing-motor-and-esc.jpeg" width="45%">
+  <img src="docs/assembly-frame-f450.jpeg" width="45%">
+  <img src="docs/control-web-code.jpeg" width="45%">
+  <img src="docs/cutting-plywood.jpeg" width="45%">
+  <img src="docs/drill-a-hole-in-carbon-tube.jpeg" width="45%">
+  <img src="docs/find-the-rough-video-of-pid.jpeg" width="45%">
+  <img src="docs/flight-controller-code.jpeg" width="45%">
+  <img src="docs/installing-motor-and-esc-2.jpeg" width="45%">
+  <img src="docs/installing-motor-and-esc.jpeg" width="45%">
 </p>
