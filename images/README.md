@@ -12,6 +12,26 @@ Main capabilities:
 
 ## Project Images
 
-![Top View Drone](Custom-Drone-Flight-Controller/images/top-view-drone.jpeg)
+### Top View
+![Top View Drone](https://raw.githubusercontent.com/exstain/Custom-Drone-Flight-Controller/main/images/top-view-drone.jpeg)
 
-![Bottom View Drone](Custom-Drone-Flight-Controller/images/bottom-view-drone.jpeg)
+### Bottom View
+![Bottom View Drone](https://raw.githubusercontent.com/exstain/Custom-Drone-Flight-Controller/main/images/bottom-view-drone.jpeg)
+
+
+## Hardware
+
+- ESP8266
+- MPU6050
+- F450 Frame
+- Brushless Motors
+- ESC
+
+
+## Flight Controller Features
+
+- IMU sensor processing
+- PID stabilization
+- Motor mixing
+- Wireless telemetry
+- Real-time control
