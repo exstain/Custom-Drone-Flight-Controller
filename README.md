@@ -23,7 +23,7 @@ Core hardware design, assembly, firmware development, and flight testing were do
 
 ## System Architecture
 <p align="center">
-  <img src="docs/arsitektur-drone" width="45%">
+  <img src="docs/arsitektur-drone.jpg" width="45%">
 </p>
 
 ## Hardware Specifications
