@@ -34,3 +34,9 @@ Custom Drone Flight Controller AND Frame DIY
 ### Telemetry Screen
 ![Telemetry Screen](https://github.com/exstain/Custom-Drone-Flight-Controller/blob/main/images/telemetry.jpeg?raw=true)
 
+
+<p align="center">
+  <img src="images/top-view-drone.jpeg" width="45%">
+  <img src="images/bottom-view-drone.jpeg" width="45%">
+</p>
+
