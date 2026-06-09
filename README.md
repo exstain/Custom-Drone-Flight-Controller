@@ -159,6 +159,7 @@ Multiple testing stages were performed to ensure safe and stable operation.
 - Enhanced telemetry dashboard
 - Battery monitoring system
 
+
 ## Photo of the Manufacturing Process
 <p align="center">
   <img src="docs/assembly-frame-f450.jpeg" width="45%">
@@ -170,3 +171,77 @@ Multiple testing stages were performed to ensure safe and stable operation.
   <img src="docs/installing-motor-and-esc-2.jpeg" width="45%">
   <img src="docs/installing-motor-and-esc.jpeg" width="45%">
 </p>
+
+
+## Engineering Challenges & Solutions
+
+### 1. Faulty MPU6050 Sensor Module
+**Problem:** The MPU6050 sensor was able to communicate via I2C, but all accelerometer and gyroscope values were always zero.
+
+**Investigation:**
+- Checked wiring and I2C connections
+- Verified code implementation
+- Tested pin configuration
+
+**Conclusion:** The first MPU6050 module was defective.
+
+**Solution:** Replaced the sensor module, which resolved the issue and restored proper sensor data output.
+
+---
+
+### 2. Noisy and Unstable Sensor Readings
+**Problem:** Gyroscope and accelerometer data were unstable and inconsistent during flight operation.
+
+**Solution:**
+- Applied low-pass filtering to both gyro and accelerometer data
+- Enabled MPU6050 internal digital low-pass filter (DLPF level 3)
+
+This significantly improved signal stability for flight control.
+
+---
+
+### 3. Motor Runaway Bug When WiFi Disconnects
+**Problem:** When the WiFi connection from the laptop was lost, one motor would unexpectedly spin at full throttle, creating a serious safety risk.
+
+**Solution:**
+- Implemented a failsafe mechanism
+- Disabled PID output on connection loss
+- Detached motor output when telemetry connection is lost
+
+This ensured the system enters a safe state when communication is interrupted.
+
+---
+
+### 4. PID Timing Instability (dt Jitter Issue)
+**Problem:** The PID loop was intended to run at 125 Hz (8 ms cycle), but actual execution dropped to ~25 Hz with significant jitter.
+
+This caused:
+- unstable tuning behavior
+- inconsistent flight response
+
+**Investigation:**
+- Printed and analyzed dt values in real-time
+- Identified timing inconsistencies caused by the Servo library
+
+**Solution:**
+- Replaced Servo-based PWM with ISR-based PWM control
+- Improved loop timing stability
+
+**Result:**
+- PID frequency stabilized around ~115 Hz
+- dt improved to ~6–7 ms range
+- Much more stable tuning performance on ESP8266 limitations
+
+---
+
+### 5. ESP8266 Loop Performance Limitations
+**Problem:** Main control loop became unstable due to hardware limitations of ESP8266 under multiple tasks.
+
+**Solution:**
+Separated system execution into timed schedulers:
+
+- PID loop → fixed timer-based execution
+- Telemetry loop → scheduled interval execution
+- WebSocket loop → event-based (no timer, lightweight)
+
+This improved system responsiveness and reduced CPU blocking issues.
