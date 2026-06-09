@@ -12,6 +12,6 @@ Main capabilities:
 
 ## Project Images
 
-![Top View Drone](images/top-view-drone.jpeg)
+![Top View Drone](Custom-Drone-Flight-Controller/images/top-view-drone.jpeg)
 
-![Bottom View Drone](images/bottom-view-drone.jpeg)
+![Bottom View Drone](Custom-Drone-Flight-Controller/images/bottom-view-drone.jpeg)
