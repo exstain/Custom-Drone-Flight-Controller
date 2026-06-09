@@ -19,7 +19,7 @@ Main capabilities:
 ![Bottom View Drone](https://raw.githubusercontent.com/exstain/Custom-Drone-Flight-Controller/main/images/bottom-view-drone.jpeg)
 
 ### Telemetry Screen
-![Telemetry Screen](images/telemetry.jpeg)
+![Telemetry Screen](https://github.com/exstain/Custom-Drone-Flight-Controller/blob/main/images/telemetry.jpeg?raw=true)
 
 ## Hardware
 
