@@ -36,21 +36,9 @@ The system consists of the following components:
 
 ### 3.1 Block Diagram
 
-```
-IMU Sensor (MPU6050)
-        ↓
-   ESP8266 MCU
-        ↓
-   PID Controller
-        ↓
-   Motor Mixer
-        ↓
-   ESCs
-        ↓
-   Motors (Quadcopter)
-```
-
----
+<p align="center">
+  <img src="docs/arsitektur-drone.jpg" width="45%">
+</p>
 
 ## 4. Methodology
 
@@ -129,7 +117,9 @@ Features:
 
 ### 5.2 Electronics Integration
 
-![Electronics](images/electronics.jpg)
+<p align="center">
+  <img src="docs/installing-motor-and-esc.jpeg" width="45%">
+</p>
 
 - ESP8266 mounted as flight controller
 - MPU6050 IMU sensor
