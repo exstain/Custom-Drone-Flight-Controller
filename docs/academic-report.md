@@ -37,7 +37,7 @@ The system consists of the following components:
 ### 3.1 Block Diagram
 
 <p align="center">
-  <img src="docs/arsitektur-drone.jpg" width="45%">
+  <img src="/docs/arsitektur-drone.jpg" width="45%">
 </p>
 
 ## 4. Methodology
@@ -106,7 +106,7 @@ Features:
 ### 5.1 Frame Design
 
 <p align="center">
-  <img src="images/top-view-drone.jpeg" width="45%">
+  <img src="/images/top-view-drone.jpeg" width="45%">
 </p>
 
 - Carbon fiber arms (23 cm × 4)
@@ -118,7 +118,7 @@ Features:
 ### 5.2 Electronics Integration
 
 <p align="center">
-  <img src="docs/installing-motor-and-esc.jpeg" width="45%">
+  <img src="/docs/installing-motor-and-esc.jpeg" width="45%">
 </p>
 
 - ESP8266 mounted as flight controller
