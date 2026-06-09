@@ -18,6 +18,8 @@ Main capabilities:
 ### Bottom View
 ![Bottom View Drone](https://raw.githubusercontent.com/exstain/Custom-Drone-Flight-Controller/main/images/bottom-view-drone.jpeg)
 
+### Telemetry Screen
+![Telemetry Screen](images/telemetry.jpeg)
 
 ## Hardware
 
