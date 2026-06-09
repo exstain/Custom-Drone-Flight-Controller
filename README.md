@@ -1,19 +1,36 @@
-Custom Drone Flight Controller
+Custom Drone Flight Controller AND Frame DIY
 
-Features
-- PID Stabilization
-- IMU Sensor Integration
-- Motor Mixing
-- ESP8266 Telemetry
-- Wireless Configuration
+## Flight Controller Features
 
-Hardware
+- IMU sensor processing
+- PID stabilization
+- Motor mixing
+- Wireless telemetry
+- Real-time control
+
+## Hardware
+
 - ESP8266
-- IMU Sensor
+- MPU6050
+- F450 Frame
 - Brushless Motors
 - ESC
 
-Results
+
+## Result
 - Stable flight
 - Wireless telemetry
 - Real-time control
+
+
+## Project Images
+
+### Top View
+![Top View Drone](https://raw.githubusercontent.com/exstain/Custom-Drone-Flight-Controller/main/images/top-view-drone.jpeg)
+
+### Bottom View
+![Bottom View Drone](https://raw.githubusercontent.com/exstain/Custom-Drone-Flight-Controller/main/images/bottom-view-drone.jpeg)
+
+### Telemetry Screen
+![Telemetry Screen](https://github.com/exstain/Custom-Drone-Flight-Controller/blob/main/images/telemetry.jpeg?raw=true)
+
