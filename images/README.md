@@ -12,6 +12,6 @@ Main capabilities:
 
 ## Project Images
 
-![Drone](https://raw.githubusercontent.com/exstain/Custom-Drone-Flight-Controller/main/images/top-view-drone.jpeg)
+![Top View Drone](./images/top-view-drone.jpeg)
 
-![Drone](https://raw.githubusercontent.com/exstain/Custom-Drone-Flight-Controller/main/images/bottom-view-drone.jpeg)
+![Bottom View Drone](./images/bottom-view-drone.jpeg)
