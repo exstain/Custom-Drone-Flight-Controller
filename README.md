@@ -152,16 +152,21 @@ Multiple testing stages were performed to ensure safe and stable operation.
 - Persistent calibration storage through EEPROM.
 - Successful integration of hardware and firmware into a fully operational quadcopter flight controller.
 
-## Results
-
-- Stable flight achieved
-- Real-time telemetry communication
-- Successful PID stabilization
-- Responsive motor control
-
 ## Future Improvements
 
 - GPS integration
 - Autonomous flight modes
 - Enhanced telemetry dashboard
 - Battery monitoring system
+
+## Photo of the Manufacturing Process
+<p align="center">
+  <img src="images/assembly-frame-f450.jpeg" width="45%">
+  <img src="images/control-web-code.jpeg" width="45%">
+  <img src="images/cutting-plywood.jpeg" width="45%">
+  <img src="images/drill-a-hole-in-carbon-tube.jpeg" width="45%">
+  <img src="images/find-the-rough-video-of-pid.jpeg" width="45%">
+  <img src="images/flight-controller-code.jpeg" width="45%">
+  <img src="images/installing-motor-and-esc-2.jpeg" width="45%">
+  <img src="images/installing-motor-and-esc.jpeg" width="45%">
+</p>
