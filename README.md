@@ -228,8 +228,8 @@ This caused:
 - Improved loop timing stability
 
 **Result:**
-- PID frequency stabilized around ~115 Hz
-- dt improved to ~6–7 ms range
+- PID frequency stabilized around ~100-125 Hz
+- dt improved to ~7–9 ms range
 - Much more stable tuning performance on ESP8266 limitations
 
 ---
