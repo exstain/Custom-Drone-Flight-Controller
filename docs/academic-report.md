@@ -106,7 +106,7 @@ Features:
 ### 5.1 Frame Design
 
 <p align="center">
-  <img src="docs/top-view-drone.jpg" width="45%">
+  <img src="docs/top-view-drone.jpeg" width="45%">
 </p>
 
 - Carbon fiber arms (23 cm × 4)
